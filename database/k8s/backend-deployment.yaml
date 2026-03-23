@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: todo-app:latest # Ton image locale
+          image: todo-app:latest # Ton image locales
           imagePullPolicy: Never # Important pour utiliser l'image locale
           ports:
             - containerPort: 8000
